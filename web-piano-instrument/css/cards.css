@@ -49,8 +49,10 @@ body {
 .cargo {
     font-size: 18px;
     color: #555;
+    margin-bottom: 10px;
 }
 .descripcion {
     font-size: 14px;
     color: #777;
+    margin-bottom: 20px;
 }
