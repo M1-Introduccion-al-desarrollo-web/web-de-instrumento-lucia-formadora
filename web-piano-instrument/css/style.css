@@ -7,6 +7,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
+  background-color: #F5F5F5;
 }
 
 button:focus-visible {
@@ -15,4 +16,32 @@ button:focus-visible {
 }
 a {
   text-decoration: none;
+}
+
+.homeaboutus {
+  text-align: center;
+}
+
+.homeaboutus h2 {
+  font-weight: bold;
+}
+
+.homeaboutus a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.homeaboutus p{
+  margin: 15px 20px 7px 20px;
+}
+
+button {
+  background-color: #74A884;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px 15px 5px 15px;
+  margin: 0px 0px 10px 0px;
+  border: none; 
+  cursor: pointer;
 }
