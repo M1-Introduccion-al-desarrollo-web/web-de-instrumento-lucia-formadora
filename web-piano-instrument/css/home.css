@@ -1,0 +1,75 @@
+.photo-game {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 20px 40px;
+    position: relative;
+    background: linear-gradient(
+      0deg,
+      rgba(142, 142, 142, 1) 0%,
+      rgba(142, 142, 142, 1) 100%
+    );
+  }
+  
+  .photo-game .image {
+    position: relative;
+    width: 710px;
+    height: 710px;
+    object-fit: cover;
+  }
+  
+  .photo-game .button-play {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #74a884;
+    border-radius: 40px;
+  }
+  
+  .photo-game .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us {
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-weight: bold;
+  }
+  
+  .about-us a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .about-us p {
+    margin: 15px 20px 7px 20px;
+  }
+  
+  button {
+    background-color: #74A884;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px 15px 5px 15px;
+    margin: 0px 0px 10px 0px;
+    border: none; 
+    cursor: pointer;
+  }
