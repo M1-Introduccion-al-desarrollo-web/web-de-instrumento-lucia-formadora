@@ -32,6 +32,7 @@
     background-color: #74a884;
     border-radius: 40px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .about-us {
@@ -44,7 +45,7 @@
     font-size: 24px;
 }
   
-.about-us a {
+.factory {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -53,16 +54,6 @@
 .about-us p {
     margin: 15px 20px 7px 20px;
     font-size: 16px;
-}
-  
-button {
-    background-color: #74A884;
-    border-radius: 10px;
-    width: 100px;
-    padding: 5px 15px 5px 15px;
-    margin: 0px 0px 10px 0px;
-    border: none; 
-    cursor: pointer;
 }
 
 @media (max-width: 768px) {
