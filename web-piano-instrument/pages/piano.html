@@ -12,16 +12,26 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <a href="index.html">
+            <a href="../index.html">
                 <figure class="logo">
-                    <img class="image-navbar" src="assets/images/logo.png" alt="Logo" />
+                    <img class="image-navbar" src="../assets/images/logo.png" alt="Logo" />
                 </figure>
             </a>
+            <button class="open-menu" aria-label="Toggle menu">
+          <img
+            src="https://www.svgrepo.com/show/532195/menu.svg"
+            alt="Burger icon"
+            class="burger-icon"
+          />
+        </button>
             <section class="frame">
-                <a href="pages/piano.html" class="button-play">
+            <a href="../index.html" class="logo">
+           <img class="image-submenu" src="../assets/images/logo.png" alt="logosubmenu" />
+           </a>
+                <a href="../pages/piano.html" class="button-play">
                     <span class="text-wrapper">Play</span>
                 </a>
-                <a href="pages/about_us.html" class="button-about-us">
+                <a href="../pages/about_us.html" class="button-about-us">
                     <span class="text-wrapper">About us</span>
                 </a>
             </section>
@@ -31,7 +41,7 @@
         <div class="wrapper">
             <header>
                 <h2>Piono</h2>
-                <img src="../asset/chatgpt_image_14_may_2025__12_22_44-removebg-preview_480.png" width="50px" alt="logo">
+                <div class="logopiano"><img src="../assets/images/logo.png" width="50px" alt="logo"></div>
                 <div class="column volume-slider">
                     <span>Volume</span> <input type="range">
                 </div>
@@ -60,19 +70,16 @@
             </ul>
         </div>
         <script src="../asset/script.js" defer></script>
-       
-
-
     </main>
     <footer>
         <section class="footer">
             <p class="description-footer">© 2025 Piono.&nbsp;&nbsp;All Rights Reserved</p>
             <ul class="icons-wrapper">
                 <li><img class="img" src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Instagram" /></li>
-                <li><img class="img" src="ihttps://www.svgrepo.com/show/521725/linkedin.svg" alt="LinkedIn" /></li>
+                <li><img class="img" src="https://www.svgrepo.com/show/521725/linkedin.svg" alt="LinkedIn" /></li>
                 <li><img class="img" src="https://www.svgrepo.com/show/521688/github.svg" alt="GitHub" /></li>
             </ul>
         </div>
-     
+<script src="../../burger.js"></script>   
 </body>
 </html>

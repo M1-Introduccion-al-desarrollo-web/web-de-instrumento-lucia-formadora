@@ -10,24 +10,33 @@
     <link rel="stylesheet" href="../css/cards.css" />
     <title>Home</title>
 </head>
-
 <body>
     <header>
-        <nav class="nav-bar">
-            <a href="../index.html">
-                <figure class="logo">
-                    <img class="image-navbar" src="../assets/images/logo.png" alt="Logo" />
-                </figure>
-            </a>
-            <section class="frame">
-                <a href="piano.html" class="button-play">
-                    <span class="text-wrapper">Play</span>
-                </a>
-                <a href="about_us.html" class="button-about-us">
-                    <span class="text-wrapper">About us</span>
-                </a>
-            </section>
-        </nav>
+      <nav class="nav-bar">
+        <a href="../index.html">
+          <figure class="logo">
+            <img class="image-navbar" src="../assets/images/logo.png" alt="Logo" />
+          </figure>
+        </a>
+        <button class="open-menu" aria-label="Toggle menu">
+          <img
+            src="https://www.svgrepo.com/show/532195/menu.svg"
+            alt="Burger icon"
+            class="burger-icon"
+          />
+        </button>
+        <section class="frame">
+          <a href="../index.html" class="logo">
+           <img class="image-submenu" src="../assets/images/logo.png" alt="logosubmenu" />
+           </a>
+          <a href="../pages/piano.html" class="button-play">
+            <span class="text-wrapper">Play</span>
+          </a>
+          <a href="../pages/about_us.html" class="button-about-us">
+            <span class="text-wrapper">About us</span>
+          </a>
+        </section>
+      </nav>
     </header>
     <main>
         <section class="about-us">
@@ -84,6 +93,6 @@
             </ul>
         </section>
     </footer>
+<script src="../../burger.js"></script>
 </body>
-
 </html>
