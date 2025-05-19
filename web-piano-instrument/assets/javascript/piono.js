@@ -2,8 +2,8 @@ const pianoKeys = document.querySelectorAll(".piono-keys .key");
 const volumeslider = document.querySelector(".volume-slider input");
 let volume = 1;
 const keyMap = {
-  a: "1", w: "2", s: "3", e: "4", d: "5", f: "6",
-  t: "7", g: "8", y: "9", h: "10", u: "11", j: "12",
+  a: "01", w: "02", s: "03", e: "04", d: "05", f: "06",
+  t: "07", g: "08", y: "09", h: "10", u: "11", j: "12",
   k: "13", o: "14", l: "15", p: "16", ";": "17"
 };
 const keysCheckbox = document.querySelector(".keys-checkbox input");
