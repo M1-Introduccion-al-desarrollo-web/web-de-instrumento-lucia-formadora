@@ -41,4 +41,37 @@ document.addEventListener("keydown", e => {
   }
 });
 
+function playNoteByKey(dataKey) {
+  const key = document.querySelector(`.key[data-key="${dataKey}"]`);
+  if (key) {
+    key.click();
+    key.classList.add("active");
+    setTimeout(() => key.classList.remove("active"), 300);
+  }
+}
 
+const twinkle = [
+  { key: "01", delay: 0 },     // C
+  { key: "01", delay: 400 },   // C
+  { key: "08", delay: 800 },   // G
+  { key: "08", delay: 1200 },  // G
+  { key: "10", delay: 1600 },  // A
+  { key: "10", delay: 2000 },  // A
+  { key: "08", delay: 2400 },  // G
+
+  { key: "06", delay: 3200 },  // F
+  { key: "06", delay: 3600 },  // F
+  { key: "05", delay: 4000 },  // E
+  { key: "05", delay: 4400 },  // E
+  { key: "03", delay: 4800 },  // D
+  { key: "03", delay: 5200 },  // D
+  { key: "01", delay: 5600 },  // C
+];
+
+function playSong(songArray) {
+  songArray.forEach(note => {
+    setTimeout(() => {
+      playNoteByKey(note.key);
+    }, note.delay);
+  });
+}
