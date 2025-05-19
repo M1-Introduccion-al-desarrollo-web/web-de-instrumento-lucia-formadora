@@ -10,7 +10,7 @@
 .photo-game {
   max-width: 10000px;
   width: 100%;
-  margin: 0 auto 40px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,4 +29,18 @@
 
 .button-home[href="pages/piano.html"] {
   animation: pulse 1s ease-in-out infinite;
+}
+
+.buttons-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  margin-top: 10px;
+}
+
+.buttons-row .button-home {
+  width: auto; 
 }

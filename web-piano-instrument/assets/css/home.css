@@ -8,6 +8,7 @@
   padding: 0px 20px 40px;
   position: relative;
   background-color: #8e8e8e;
+  flex-direction: column
 }
 
 .photo-game .image {
