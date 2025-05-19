@@ -39,7 +39,7 @@
                 <h2>Piono</h2>
                 <div class="logopiano"><img src="../assets/images/logo.png" width="50px" alt="logo"></div>
                 <div class="column volume-slider">
-                    <span>Volume</span> <input type="range">
+                    <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
                 </div>
                 <div class="column keys-checkbox">
                     <span>Show keys</span> <input type="checkbox" checked >
@@ -62,7 +62,7 @@
                 <li class="key black" data-key="14"><span>o</span></li>
                 <li class="key white" data-key="15"><span>l</span></li>
                 <li class="key black" data-key="16"><span>p</span></li>
-                <li  class="key white" data-key="17"><span>;</span></li>
+                <li class="key white" data-key="17"><span>;</span></li>
             </ul>
         </div>
     </main>
@@ -77,5 +77,6 @@
         </section>
     </footer>
     <script src="../assets/javascript/burger.js"></script>
+    <script src="../assets/javascript/piono.js"></script>
 </body>
 </html>
