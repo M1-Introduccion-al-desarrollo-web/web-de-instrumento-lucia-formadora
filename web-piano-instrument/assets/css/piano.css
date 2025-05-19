@@ -110,3 +110,22 @@ header .column span{
 .piono-keys.hide-label .key span {
   display: none;
 }
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .piono-keys .white {
+    height: 20vh;
+  }
+  .piono-keys .black {
+    height: 12vh;
+  }
+  header h2 {
+    font-size: 1.2rem;
+  }
+}
+.piono-keys {
+  display: flex;
+  overflow-x: auto;
+}
+
