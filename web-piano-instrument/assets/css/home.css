@@ -17,6 +17,7 @@
   height: 710px;
   height: auto;
   object-fit: cover;
+  visibility: hidden;
 }
 
 .button-home {

@@ -1,0 +1,32 @@
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.photo-game {
+  max-width: 10000px;
+  width: 100%;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../images/image-game-logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  transition: background-image 0.5s ease-in-out;
+}
+
+.photo-game:hover {
+  background-image: url('../images/image-game.png');
+  background-size: contain;
+}
+
+.button-home[href="pages/piano.html"] {
+  animation: pulse 1s ease-in-out infinite;
+}
