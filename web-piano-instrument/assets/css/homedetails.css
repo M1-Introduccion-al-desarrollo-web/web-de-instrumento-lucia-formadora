@@ -1,5 +1,6 @@
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -15,16 +16,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url('../images/image-game-logo.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; 
+
+  background-image: url("../images/image-game-logo.png"),
+    url("../images/playingpiano.jpg");
+
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
   transition: background-image 0.5s ease-in-out;
 }
 
 .photo-game:hover {
-  background-image: url('../images/image-game.png');
-  background-size: contain;
+  background-image: url("../images/image-game.png"),
+    url("../images/playingpiano.jpg");
+  background-size: contain, cover;
 }
 
 .button-home[href="pages/piano.html"] {
@@ -37,10 +42,10 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
 .buttons-row .button-home {
-  width: auto; 
+  width: auto;
 }
