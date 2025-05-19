@@ -122,19 +122,76 @@ header .column span{
 @media (max-width: 600px) {
   .wrapper {
     padding: 20px;
+    width: 80vh;
+    min-height: 300px; 
+    height: 80vw;
+    transform: rotate(90deg);
+    transform-origin: center; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10vh;
+    
   }
   .piono-keys .white {
     height: 20vh;
+    min-width: 50px;
+   
   }
   .piono-keys .black {
     height: 12vh;
+    min-width: 30px;
+    margin: 0 -15px;
   }
   header h2 {
     font-size: 1.2rem;
   }
-}
-.piono-keys {
+
+  .piono-keys {
   display: flex;
   overflow-x: auto;
+  flex-direction: row;
+  width: 100%;
+  min-width: 300px; 
+ 
 }
 
+.piono-keys span {
+  transform: rotate;
+  transform-origin: center;
+  bottom:auto;
+  top:20px;
+  
+}
+header {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.volume-slider input {
+    width: 80px;
+}
+.keys-checkbox input {
+    width: 40px;
+    height: 20px;
+  }
+
+  .keys-checkbox input::before {
+    height: 14px;
+    width: 14px;
+    left: 3px;
+  }
+
+  .keys-checkbox input:checked::before {
+    left: 23px;
+  }
+
+  main {
+    height: 100vh;
+    padding: 0;
+  }
+
+}
