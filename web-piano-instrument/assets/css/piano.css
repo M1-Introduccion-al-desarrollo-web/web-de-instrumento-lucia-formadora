@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 40px 0;
+}
+
 .wrapper{
   background: #141414;
   width: 780px;
@@ -14,6 +22,7 @@
   align-items: center;
   margin: 0 auto;
 }
+
 .wrapper header{
   color: white;
   display: flex;
@@ -110,3 +119,22 @@ header .column span{
 .piono-keys.hide-label .key span {
   display: none;
 }
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .piono-keys .white {
+    height: 20vh;
+  }
+  .piono-keys .black {
+    height: 12vh;
+  }
+  header h2 {
+    font-size: 1.2rem;
+  }
+}
+.piono-keys {
+  display: flex;
+  overflow-x: auto;
+}
+
