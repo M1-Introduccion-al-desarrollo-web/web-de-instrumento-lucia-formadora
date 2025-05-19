@@ -74,6 +74,8 @@ img[alt="gmail"] {
   .cards {
     gap: 1rem;
     margin: 30px;
+    flex-direction: column;
+    align-items: center;
   }
   .card-item {
     width: 220px;
@@ -91,12 +93,12 @@ img[alt="gmail"] {
     margin: 20px 0;
   }
   .card-item {
-    width: 90%;
-    max-width: 350px;
+    max-width: 100%;
+    max-width: 500px;
   }
   .img {
     width: 100%;
-    max-width: 350px;
+    max-width: 450px; /* Aumenta el tamaño máximo de la foto */
   }
   .about-us h2 {
     font-size: 20px;
@@ -110,7 +112,7 @@ img[alt="gmail"] {
 @media (max-width: 480px) {
   .card-item {
     width: 100%;
-    max-width: 100%;
+    max-width: 500px;
   }
   .img {
     width: 100%;
@@ -122,12 +124,6 @@ img[alt="gmail"] {
   }
   .about-us h2 {
     font-size: 18px;
-  }
-}
-@media (max-width: 1024px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
   }
 }
 
