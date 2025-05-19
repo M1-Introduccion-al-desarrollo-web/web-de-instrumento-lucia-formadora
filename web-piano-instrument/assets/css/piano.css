@@ -107,3 +107,6 @@ header .column span{
   font-size: 1.13rem;
   text-align: center;
 }
+.piono-keys.hide-label .key span {
+  display: none;
+}
