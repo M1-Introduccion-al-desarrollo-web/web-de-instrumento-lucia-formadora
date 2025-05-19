@@ -49,3 +49,9 @@
 .buttons-row .button-home {
   width: auto;
 }
+
+.image-credit {
+  align-self: flex-end;
+  font-size: 12px;
+  color: white;
+}
