@@ -1,3 +1,4 @@
+
 body {
     background: #f5f5f5;
     background-image: linear-gradient(rgba(245,245,245,0.7), rgba(245,245,245,0.7)), url('../assets/images/logo.png');
@@ -35,7 +36,7 @@ body {
     color: #333;
 
 }
-.card-text h2 {
+.card-text h2 {   
     font-size: 25px;
     margin-bottom: 10px; /* Añade espacio debajo del h2 */
 }
@@ -56,3 +57,20 @@ body {
     color: #777;
     margin-bottom: 20px;
 }
+img[alt="linkedin"] {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+img[alt="gmail"] {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+
