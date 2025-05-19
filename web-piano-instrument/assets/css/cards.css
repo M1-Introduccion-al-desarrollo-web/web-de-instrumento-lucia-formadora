@@ -61,16 +61,92 @@ img[alt="linkedin"] {
     width: 30px;
     height: 30px;
     margin-left: 5px;
-    margin-right: 10px;
-    float: right;
+  
 }
 
 img[alt="gmail"] {
     width: 30px;
     height: 30px;
-    margin-left: 5px;
-    margin-right: 10px;
-    float: right;
+    
+
+}
+@media (max-width: 1024px) {
+  .cards {
+    gap: 1rem;
+    margin: 30px;
+  }
+  .card-item {
+    width: 220px;
+  }
+  .img {
+    width: 220px;
+  }
 }
 
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 20px 0;
+  }
+  .card-item {
+    width: 90%;
+    max-width: 350px;
+  }
+  .img {
+    width: 100%;
+    max-width: 350px;
+  }
+  .about-us h2 {
+    font-size: 20px;
+  }
+  .about-us p,
+  .about-us a {
+    font-size: 14px;
+  }
+}
 
+@media (max-width: 480px) {
+  .card-item {
+    width: 100%;
+    max-width: 100%;
+  }
+  .img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .cards {
+    margin: 10px 0;
+    gap: 1rem;
+  }
+  .about-us h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 50px;
+  }
+  .card-item {
+    width: 300px;
+    max-width: 100%;
+  }
+  .img {
+    width: 300px;
+    max-width: 100%;
+  }
+}
