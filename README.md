@@ -14,18 +14,21 @@ Interacción básica:
 Cada parte de la batería debe reproducir un sonido al hacer clic con el mouse.
 Cada parte también debe poder sonar al presionar una tecla específica del teclado.
 Páginas mínimas requeridas:
-Home: presentación del proyecto + imagen del instrumento.
-Instrumento: página donde se encuentra la batería para practicar.
-About Us: imagen del grupo + breve descripción.
+
+- Home: presentación del proyecto + imagen del instrumento.
+- Instrumento: página donde se encuentra la batería para practicar.
+- About Us: imagen del grupo + breve descripción.
 Navegación clara:
-La web debe tener un menú de navegación accesible en todas las páginas (home, instrumento, about us).
-Reproducción simultánea:
-El usuario debe poder tocar varias partes de la batería al mismo tiempo (polifonía).
+
+- La web debe tener un menú de navegación accesible en todas las páginas (home, instrumento, about us).
+- Reproducción simultánea:
+- El usuario debe poder tocar varias partes de la batería al mismo tiempo (polifonía).
 Diseño responsivo:
-La aplicación debe ser responsive.
-Uso de Git y GitHub:
-Se debe trabajar con Git y subir el código a un repositorio en GitHub.
-El proyecto debe estar desplegado.
+
+- La aplicación debe ser responsive.
+- Uso de Git y GitHub:
+- Se debe trabajar con Git y subir el código a un repositorio en GitHub.
+- El proyecto debe estar desplegado.
 
 Requerimientos técnicos
 - HTML, CSS y JavaScript (sin frameworks obligatorios).
